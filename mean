@@ -1,0 +1,11 @@
+EXPERIMENT-13
+MEAN
+AIM:
+
+To write the program for the minimum,maximum,mean and minmax using r-TOOL
+
+PROGRAM:
+MEAN
+diabetest1<-read_excel("C:/Users/M.Geetha/Downloads/NARA.xlsx")
+A<-c(diabetest1$Age)
+Mean<-mean(A)
