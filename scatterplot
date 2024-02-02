@@ -1,0 +1,10 @@
+EXPERIMENT-18
+SCATTER PLOT:
+AIM:
+To draw the scatter plot using R-tool
+PROGRAM:
+set.seed(9)
+x <- rnorm(1000)
+y <- rnorm(1000)
+smoothScatter(y - x)
+smoothScatter(x,y)
