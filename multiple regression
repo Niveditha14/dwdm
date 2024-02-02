@@ -1,0 +1,7 @@
+MULTIPLE REGRESSION:
+AIM:
+To write the program for the multiple regression.
+PROGRAM:
+Input <- diabetes[,c(“Age”, “BloodPressure”, “Glucose”)]
+Model <- lm(Age~ BloodPressure+Glucose,data=input)
+Print(model)
